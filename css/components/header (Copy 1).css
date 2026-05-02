@@ -1,7 +1,8 @@
 /* header.css */
 
 .header {
-    background-color: blueviolet;
+    background: #ffffff;
+
     position: fixed; /*cabeçalho ancorado e sempre visível*/
 
     top: 20px;
@@ -10,7 +11,8 @@
     /*transform: Mover, girar, escalar (aumentar/diminuir) ou inclinar um elemento.*/
     /*translate(x, y) - função desloca item nos eixos x, y ou z*/
 
-    width: calc(100% - 40px);
+    width: calc(100% - 40px); /*largura total da tela menos 40px (20px de cada lado)*/
+
     border-radius: 15px;
 
     z-index: 999;
@@ -20,14 +22,44 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px, 28px;
-   /* gap: 2rem;
-    padding: 1.5rem 2rem;
-    background: #ffffff;*/
-}
+}  
+
 
 .logo img {
-    height: 48px;
+    height: 40px;
     /*display: block;*/
+}
+
+.nav-center ul, .nav-right ul {
+    display: flex;
+    gap: 2.5rem; /*medida relativa, equivale a 40px, medida encontrada na referencia do figma*/
+}
+
+.nav-center a, .nav-right a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.nav-center a:hover, 
+.nav-right a:hover {
+    color: #7c3aed; /*cor de destaque ao passar o mouse*/
+}
+
+.nav-right ul{ 
+    align-items: center;
+}    
+
+.nav-right img {
+    height: 20px; 
+}   
+
+.nav-right a:hover {
+    opacity: 0.7;
+}
+
+/*.nav-center a, .nav-right a {
+    text-decoration: none;
 }
 
 /*
