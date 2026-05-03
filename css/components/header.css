@@ -1,7 +1,7 @@
 /* header.css */
 
 .header {
-    background-color: blueviolet;
+    background: #ffffff;
     position: fixed; /*cabeçalho ancorado e sempre visível*/
 
     top: 20px;
@@ -21,7 +21,7 @@
     justify-content: space-between;
    /* gap: 2rem;
     padding: 1.5rem 2rem;
-    background: #ffffff;*/
+    
 }
 
 /*.logo img {
