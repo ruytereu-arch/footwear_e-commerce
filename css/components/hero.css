@@ -1,8 +1,9 @@
 /* hero.css */
 .hero-section {
     background: url(../../images/banners/hero.jpg) no-repeat center;
-    height: 500px;
     background-size: cover;
+    height: 500px;
+    
     position: relative;
     /* margin: 40px; */ /*margin ou padding?*/
     border-radius: 15px;
@@ -14,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 6.25rem;
+    padding: 0.4rem;
 }
 
 .hero-content {
@@ -23,18 +24,48 @@
     text-align: center;
 }
 
-.hero-content   
-.hero-title
-.hero-subtitle {
-    font-weight: 400;
-    letter-spacing: 8%;
-}
-.hero-title {
-    font-size: 1.87rem;
+.hero-content .hero-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
     
+    font-weight: 400;
 }
 
-.hero-subtitle {
+.hero-content .hero-subtitle {
     font-size: 1.25rem;
-   
+    font-weight: 500;
+    margin-bottom: 10px;
 }
+
+.btn {
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    border: 2px solid;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: backgroun-color 0.3s, border 0.3s;
+}
+
+.btn-outline {
+    color: #ffffff;
+    background-color: transparent;
+    padding: 10px 23px;
+
+}
+
+.btn-filled {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    color: #6329a2;
+}
+
+.btn:hover {
+    background-color: #6329a2;
+    color: #ffffff;
+    border-color: #6329a2;
+}
+
+
+
