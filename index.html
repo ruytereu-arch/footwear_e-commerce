@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta> name="description" content="Descubra a coleção exclusiva de tênis e sneakers da SyntaxWear. Encontre os modelos mais estilosos e confortáveis para elevar seu visual. Compre online agora!">
+
     <title>SyntaxWear - tênis e Sneakers Online</title>
     
     <!-- Estilos Base e Layout -->
@@ -12,8 +14,9 @@
     <link rel="stylesheet" href="./css/layout.css">
     
     <!-- Estilos de Componentes -->
-    <link rel="stylesheet" href="./css/components/header (Copy 1).css">
+    <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/components/product-category.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
 </head>
 <body>
@@ -25,7 +28,6 @@
                 <img src="./images/logo/logo.svg" alt="SyntaxWear - tênis e Sneakers Online">
             </a>
          </h1>
-
          <nav class="nav-center" aria-label="Categorias Principais">
             <ul>
                 <li><a href="#">Masculino</a></li>
@@ -35,11 +37,9 @@
          </nav>
 
          <nav class="nav-right" aria-label="Acesso rápido">
-
              <ul>
                  <li><a href="#">Nossas lojas</a></li>
                  <li><a href="#">Sobre</a></li>
-             
                  <li>
                     <a href="#" aria-label="Minha conta">
                         <img src="./images/icons/user.svg" alt="👤">
@@ -77,8 +77,39 @@
             
         </section>
 
-        <section class="categories">
-            <!-- Seção de Categorias de Tênis -->
+        <section class="categories-section">
+            <!-- Seção de Categorias de Tênis -->   
+            <div class="category-card casual">
+                <a href="#" class="category-link">
+                    <!-- <img src="./images/categories/casual.jpg" alt="Casual"> -->
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Casual</span>
+                </a>
+            </div>
+            <div class="category-card esporte">
+                <a href="#" class="category-link">
+                    <!-- <img src="./images/categories/esporte.jpg" alt="Esporte"> -->
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Esporte</span>
+                </a>
+            </div>
+            <div class="category-card moderno">
+                <a href="#" class="category-link">
+                    <!-- <img src="./images/categories/moderno.jpg" alt="Moderno"> -->
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Moderno</span>
+                </a>
+            </div>               
+            <div class="category-card futurista">
+                <a href="#" class="category-link">
+                    <!-- <img src="./images/categories/futurista.jpg" alt="Futurista"> -->
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Futurista</span>
+                </a>
+            </div>
+            
+
+
         </section>
 
         <section class="featured-products">

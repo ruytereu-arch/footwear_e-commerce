@@ -1,0 +1,78 @@
+/* product-category */
+
+.categories-section {
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card {
+    position: relative; /* elementos filhos podem ser posicionados relativamente a este com position: absolute */
+
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.category-name {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);       
+    text-align: center;   
+}
+
+.casual {
+    background-image: url('../../images/categories/casual.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.esporte {
+    background-image: url('../../images/categories/esporte.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.moderno {
+    background-image: url('../../images/categories/moderno.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.futurista {
+    background-image: url('../../images/categories/futurista.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* .category-link {
+    width: 100%;
+    height: 100%;
+} */
+

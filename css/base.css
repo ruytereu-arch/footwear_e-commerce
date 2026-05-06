@@ -1,6 +1,40 @@
 /* base.css */
 body{
     font-family: var(--fonte-principal);
-    background-color: gray;
+    background-color: #ffffff;
     
+}
+
+.btn {
+    font-size: 1.25rem;
+    min-width: 161px;
+    height: 48px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px 24px;
+    line-height: 22px;
+    text-decoration: none;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.btn-outline {
+    color: #ffffff;
+    background-color: transparent;
+    /*padding: 10px 23px;*/
+
+}
+
+.btn-filled {
+    background-color: #ffffff;
+    color: #6329a2;
+    /*padding: 10px 40px;*/
+
+}
+
+.btn:hover {
+    background-color: #6329a2;
+    color: #ffffff;
+    border-color: #6329a2;
 }

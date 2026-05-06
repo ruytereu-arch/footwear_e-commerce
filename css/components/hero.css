@@ -6,7 +6,7 @@
     
     position: relative;
     /* margin: 40px; */ /*margin ou padding?*/
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .hero-overlay {
@@ -26,62 +26,29 @@
         
 }
 
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
 .hero-content .hero-title {
     font-size: 1.87rem;
     margin-bottom: 40px;
     font-weight: 400;
     line-height: 36px;
-    letter-spacing: 8%;
+    letter-spacing: 3px;
 }
 
 .hero-content .hero-subtitle {
     font-size: 1.25rem;
-    font-weight: 500;
-    margin-bottom: 10px;
-    letter-spacing: 8%;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    
-
-}
-
-.btn {
-    font-size: 1.25rem;
-    min-width: 161px;
-    height: 48px;
-    border: 2px solid;
-    border-radius: 30px;
-    padding: 10px 24px;
-    line-height: 22px;
-    text-decoration: none;
     font-weight: 400;
-    white-space: nowrap;
-    transition: background-color 0.3s, border 0.3s;
+    /* margin-bottom: 10px;
+    letter-spacing: 3px; */
 }
 
-.btn-outline {
-    color: #ffffff;
-    background-color: transparent;
-    /*padding: 10px 23px;*/
 
-}
 
-.btn-filled {
-    background-color: #ffffff;
-    color: #6329a2;
-    /*padding: 10px 40px;*/
-
-}
-
-.btn:hover {
-    background-color: #6329a2;
-    color: #ffffff;
-    border-color: #6329a2;
-}
 
 
 
