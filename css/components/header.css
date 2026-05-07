@@ -3,13 +3,13 @@
 .header {
     position: fixed; /*cabeçalho ancorado e sempre visível*/
 
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
     /*transform: Mover, girar, escalar (aumentar/diminuir) ou inclinar um elemento.*/
     /*translate(x, y) - função desloca item nos eixos x, y ou z*/
 
-    width: calc(100% - 40px); /*largura total da tela menos 40px (20px de cada lado)*/
+    width: calc(100% - 100px); /*largura total da tela menos 40px (20px de cada lado)*/
 
     border-radius: 15px;
 

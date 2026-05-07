@@ -1,1 +1,79 @@
 /* product-grid.css */
+
+.card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.highlit-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.highlit-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #EDEDED;
+    margin: 0.63rem;
+}
+
+.highlit-subtitle {
+    font-size: 1.5rem;
+    color: #EDEDED;
+    margin-bottom: 1.25rem;
+}
+
+.highlit {
+    grid-area: highlit;
+    background-image: url('../../images/products/kripton_banner.jpg');
+    position: relative;    
+}
+
+.card-a {
+    grid-area: card-a;
+    background-image: url(../../images/products/tenis-preto_azul.jpg);   
+}
+
+.model {
+    grid-area: model;
+    background-image: url(../../images/products/fem_model.jpg);   
+}
+
+.card-b {
+    grid-area: card-b;
+    background-image: url(../../images/products/moderno.jpg);
+}
+
+.card-c {
+    grid-area: card-c;
+    background-image: url(../../images/products/tenis-roxo_verde.jpg);
+}
+
+.card-d {
+    grid-area: card-d;
+    background-image: url(../../images/products/futurist.jpg);
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  grid-template-areas: 
+    "highlit highlit card-a card-a"
+    "highlit highlit model card-b"
+    "card-c card-c model card-d";
+  gap: 30px; 
+}

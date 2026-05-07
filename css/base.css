@@ -1,8 +1,15 @@
 /* base.css */
 body{
     font-family: var(--fonte-principal);
-    background-color: #ffffff;
+    background-color: #ffffff;  
     
+}
+
+main {
+    padding: 2.5rem 2.5rem 0;
+    max-width: 1360px; 
+    margin: 0 auto;
+    /*auto centraliza elementos que tenham largura definida */
 }
 
 .btn {
