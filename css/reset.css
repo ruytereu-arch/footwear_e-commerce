@@ -50,6 +50,7 @@ a {
 
 ul, ol {
   list-style: none;
+  padding: 0;
 }
 
 /* Make images easier to work with */

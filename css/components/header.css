@@ -3,7 +3,7 @@
 .header {
     position: fixed; /*cabeçalho ancorado e sempre visível*/
 
-    top: 60px;
+    top: 3.75rem; /* 60px */
     left: 50%;
     transform: translate(-50%);
     /*transform: Mover, girar, escalar (aumentar/diminuir) ou inclinar um elemento.*/
@@ -11,7 +11,7 @@
 
     width: calc(100% - 15%); /*largura total da tela menos 40px (20px de cada lado)*/
 
-    border-radius: 15px;
+    border-radius: 0.9375rem; /* 15px */
 
     z-index: 999;
     /*aways on top*/
@@ -26,7 +26,7 @@
 
 
 .logo img {
-    height: 48px;
+    height: 3rem; /* 48px */
     
     /*display: block;*/
 }
@@ -53,7 +53,7 @@
 
 
 .nav-right img {
-    height: 20px; 
+    height: 1.25rem; /* 20px */
 }   
 
 .nav-right a:hover {
