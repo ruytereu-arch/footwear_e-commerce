@@ -7,7 +7,7 @@ body{
 
 main {
     padding: 2.5rem 2.5rem 0;
-    max-width: 1360px; 
+    max-width: 1440px; 
     margin: 0 auto;
     /*auto centraliza elementos que tenham largura definida */
 }
