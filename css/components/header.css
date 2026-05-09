@@ -9,7 +9,7 @@
     /*transform: Mover, girar, escalar (aumentar/diminuir) ou inclinar um elemento.*/
     /*translate(x, y) - função desloca item nos eixos x, y ou z*/
 
-    width: calc(100% - 10%); /*largura total da tela menos 40px (20px de cada lado)*/
+    width: 1360px; /*largura total da tela menos 40px (20px de cada lado)*/
 
     border-radius: 0.9375rem; /* 15px */
 
@@ -18,9 +18,10 @@
 
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
     
-    padding: 0.265rem 1.25rem;
+    padding: 0.265rem 1.2rem;
     background: #ffffff;
 }  
 
@@ -33,7 +34,9 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 10.5rem; /* 168px */
     width: 100%;
     align-items: center;
     /*nav para menu mobile*/
