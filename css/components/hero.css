@@ -49,6 +49,41 @@
     letter-spacing: 3px; */
 }
 
+@media (max-width: 768px) {
+    .hero-section {
+        height: 660px;
+        background-image: url(../../images/banners/card_imagem.jpg);    
+    }
+
+    .hero-overlay {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .hero-content {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .hero-content .hero-title {
+        font-size: 1.5rem;
+        /* margin-bottom: 1.25rem; */
+        /* line-height: 1.5rem; */
+    }
+
+    .hero-content .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    .hero-buttons {
+        gap: 12px;
+    }
+}
+
 
 
 

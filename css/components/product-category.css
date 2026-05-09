@@ -20,8 +20,7 @@
     overflow: hidden;
     /* display: flex;
     justify-content: center;
-    align-items: center; */
-   
+    align-items: center; */   
 }
 
 .overlay {
@@ -67,6 +66,14 @@
     background-image: url('../../images/categories/futurista.jpg');
     background-size: cover;
     background-position: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .category-card {
+        width: 100%;
+    }
 }
 
 

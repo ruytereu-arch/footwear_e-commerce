@@ -77,3 +77,32 @@
     "card-c card-c model card-d";
   gap: 30px; 
 }
+
+@media (max-width: 768px) {
+    .grid-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: 
+        "highlit highlit"
+        "highlit highlit"
+        "card-a card-a"
+        "model card-b"
+        "model card-d"
+        "card-c card-c";
+        width: 100%;
+        gap: 10px;
+    }
+
+    .highlit {
+        min-height: 500px;
+    }
+
+    .model {
+        min-height: 370px;
+    }
+
+    .card-a, .card-b, .card-c, .card-d {
+        min-height: 190px;
+    }
+}

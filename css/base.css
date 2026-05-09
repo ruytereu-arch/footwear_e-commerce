@@ -6,7 +6,7 @@ body{
 }
 
 main {
-    padding: 2.5rem 2.5rem 0;
+    padding: 2.5rem 0 0;
     max-width: 90rem; /* 1440px */
     margin: 0 auto;
     /*auto centraliza elementos que tenham largura definida */
@@ -45,3 +45,16 @@ main {
     color: #ffffff;
     border-color: #6329a2;
 }
+
+/* @media (max-width: 1360px) {
+    main {
+        padding: 2.5rem 0 0;
+    }
+} */
+
+@media (max-width: 768px) {
+    main {
+        padding: 0.63rem;
+    }
+}
+
