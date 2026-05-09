@@ -9,7 +9,6 @@ main {
     padding: 2.5rem 0 0;
     max-width: 90rem; /* 1440px */
     margin: 0 auto;
-    /*auto centraliza elementos que tenham largura definida */
 }
 
 .btn {
@@ -29,15 +28,11 @@ main {
 .btn-outline {
     color: #ffffff;
     background-color: transparent;
-    /*padding: 0.625rem 1.4375rem;*/ /* 10px 23px */
-
 }
 
 .btn-filled {
     background-color: #ffffff;
     color: #6329a2;
-    /*padding: 0.625rem 2.5rem;*/ /* 10px 40px */
-
 }
 
 .btn:hover {
@@ -45,12 +40,6 @@ main {
     color: #ffffff;
     border-color: #6329a2;
 }
-
-/* @media (max-width: 1360px) {
-    main {
-        padding: 2.5rem 0 0;
-    }
-} */
 
 @media (max-width: 768px) {
     main {

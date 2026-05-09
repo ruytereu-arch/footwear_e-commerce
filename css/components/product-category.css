@@ -12,15 +12,12 @@
 }
 
 .category-card {
-    position: relative; /* elementos filhos podem ser posicionados relativamente a este com position: absolute */
+    position: relative;
 
     width: 317px;
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */   
 }
 
 .overlay {
@@ -75,11 +72,4 @@
         width: 100%;
     }
 }
-
-
-
-/* .category-link {
-    width: 100%;
-    height: 100%;
-} */
 
